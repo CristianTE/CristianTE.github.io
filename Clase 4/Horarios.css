@@ -1,0 +1,39 @@
+*{
+margin: 1px;
+padding: 1px;
+}
+header {
+    font-size:xx-large;
+    font-family:'Arial Narrow Bold';
+}
+body{
+background-color:black;
+}
+nav {
+list-style:none;
+}
+main {
+list-style: none;
+}
+a {
+color:white;
+text-decoration:none;
+}
+.dias {
+    color: white;
+    font-weight: bold;
+}
+.hora{
+    color: white;
+    font-style: italic;
+}
+.diass{
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+}
+.horario{
+    color: red;
+    font size: 26px;
+    font-weight: bold;
+}
