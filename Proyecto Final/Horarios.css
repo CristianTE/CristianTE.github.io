@@ -3,37 +3,57 @@ margin: 1px;
 padding: 1px;
 }
 header {
-    font-size:xx-large;
-    font-family:'Arial Narrow Bold';
+    background-color: red;
+    font-family: Arial;
+    font-weight: bold;
+    font-size:30px;
+    color: white;
 }
 body{
 background-color:black;
 }
 nav {
+font-family:Arial;
 list-style:none;
 }
 main {
 list-style: none;
+}
+.t1{
+    font-family: Arial;
+    font-weight: bold;
+    font-size:30px;
+    color: white;
 }
 a {
 color:white;
 text-decoration:none;
 }
 .dias {
+    font-family:Arial;
+    font-size:20px;
     color: white;
     font-weight: bold;
 }
 .hora{
+    font-family:Arial;
+    font-size:20px;
     color: white;
     font-style: italic;
 }
 .diass{
+    font-family:Arial;
     color: red;
     font-size: 30px;
     font-weight: bold;
 }
 .horario{
+    font-family:Arial;
     color: red;
     font size: 26px;
     font-weight: bold;
+}
+footer{
+    background-color: red;
+    color: white;
 }
