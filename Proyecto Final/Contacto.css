@@ -16,6 +16,7 @@ header{
 }
 nav{
     font-family:Arial;
+    font-size: 20px;
     list-style: none;
 }
 a{
@@ -41,7 +42,7 @@ color: white;
 form{
     border: 3px solid white;
     width: 400px;
-    height: 410px;
+    height: 485px;
 }
 footer{
     width: 100%;
