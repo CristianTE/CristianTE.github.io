@@ -50,3 +50,32 @@ footer{
     background-color: red;
     color: white;
 }
+.redes{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-items: center;
+}
+.elemento{
+    width: 250px;
+    height: 30px;
+    border: 1px solid white;
+}
+.wsp{
+    font-family: Arial;
+    font-size: 18px;
+    color: white;
+    background-color: green;
+}
+.fb{
+    font-family: Arial;
+    font-size: 18px;
+    color: white;
+    background-color: blue;
+}
+.ig{
+    font-family: Arial;
+    font-size: 18px;
+    color: white;
+    background-color: indianred;
+}

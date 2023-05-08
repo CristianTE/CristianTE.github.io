@@ -31,17 +31,11 @@ a {
 color:white;
 text-decoration:none;
 }
-.dias {
+.diasyhora {
     font-family:Arial;
     font-size:20px;
     color: white;
     font-weight: bold;
-}
-.hora{
-    font-family:Arial;
-    font-size:20px;
-    color: white;
-    font-style: italic;
 }
 .diass{
     font-family:Arial;
@@ -58,4 +52,33 @@ text-decoration:none;
 footer{
     background-color: red;
     color: white;
+}
+.redes{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-items: center;
+}
+.elemento{
+    width: 250px;
+    height: 30px;
+    border: 1px solid white;
+}
+.wsp{
+    font-family: Arial;
+    font-size: 18px;
+    color: white;
+    background-color: green;
+}
+.fb{
+    font-family: Arial;
+    font-size: 18px;
+    color: white;
+    background-color: blue;
+}
+.ig{
+    font-family: Arial;
+    font-size: 18px;
+    color: white;
+    background-color: indianred;
 }
