@@ -1,68 +1,68 @@
 *{
-    margin: 1px;
-    padding: 1px;
+    margin: 0px;
+    padding: 0px;
     }
-    header{
-        width: 100%;
-        height: 100%;
-        background-color: red;
-        font-family: Arial;
-        font-weight: bold;
-        font-size: 30px;
-        color: white;
-    }
-    nav{
-        font-family:Arial;
-        font-size: 20px;
-        list-style: none;
-    }
-    a{
-        color:white;
-        text-decoration:none;
-    }
-    body {
+header
+{
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+}
+h3{
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+ }
+nav ul{
+    margin: 0px;
+    padding: 0px;
+    font-family:Arial;
+    font-size: 20px;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: left;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+body {
     background-color: black;
     font-family: Arial;
     font-weight: bold;
     font-size: 15px;
     color: white;
-    }
-    footer{
-        width: 100%;
-        height: 100%;
-        background-color: red;
-        color: white;
-    }
-    h1{
-        display: flex;
-        flex-direction: column;
-    }
-    .redes{
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-items: center;
-    }
-    .elemento{
-        width: 250px;
-        height: 30px;
-        border: 1px solid white;
-    }
-    .wsp{
-        font-family: Arial;
-        font-size: 18px;
-        color: white;
-        background-color: green;
-    }
-    .fb{
-        font-family: Arial;
-        font-size: 18px;
-        color: white;
-        background-color: blue;
-    }
-    .ig{
-        font-family: Arial;
-        font-size: 18px;
-        color: white;
-        background-color: indianred;
-    }
+}
+footer{
+    background-color: red;
+     color: white;
+     text-align: center;
+     font-family: Arial;
+     font-weight: normal;
+     font-size: 15px;
+}
+h1{
+    display: flex;
+    flex-direction: column;
+}
+ .redes{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.wsp{
+    text-align: left;
+}
+.ig{
+     text-align: center;
+ }
+.fb{
+    text-align: right;
+ }
