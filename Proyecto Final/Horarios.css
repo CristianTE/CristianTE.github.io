@@ -9,6 +9,13 @@ header {
     font-size:30px;
     color: white;
 }
+img{
+    display:block;
+    width: 60%;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
 h3{
     font-family: Arial;
     font-weight: bold;
@@ -37,7 +44,7 @@ a{
 .t1{
     font-family: Arial;
     font-weight: bold;
-    font-size:30px;
+    font-size:26px;
     color: white;
 }
 

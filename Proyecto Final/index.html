@@ -9,17 +9,45 @@
     integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
     crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
+    <script type="text/javascript">
+     var edadDelUsuario = prompt("Introduzca su edad");
+     if(edadDelUsuario >= 18){
+     alert("Sos mayor de edad,continue");
+    }
+     else
+    {
+     alert("Sos menor de edad,llama a un adulto");
+    }
+    </script>
     <title>Proyecto Final</title>
+
 </head>
 <body>
 <header> <center><h3>BEBIDASYA</center></h3>
-    <center><img src="Imagenes/BebidasYa.jpeg" width="600" height="300" alt="Logo BEBIDASYA"></center>
-    <nav>
-        <a class="barra1" href="Contacto.html">CONTACTO</a>
-        |<a class="barra1" href="Horarios.html">HORARIOS</a>
-        |<a class="barra1" href="Productos.html">PRODUCTOS</a> 
-        |<a class="barra1" href="https://docs.google.com/spreadsheets/d/1gPMUtL4LnNMJP_EV6Z_Aslp5GZLyhSjhxnT2jBoTwPA/edit#gid=0">PRECIOS</a>
-    </nav>
+    <center><img src="Imagenes/BebidasYa.jpeg"  alt="Logo BEBIDASYA"></center>
+    <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+           <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+                <a class="nav-link active palabrasbarra" aria-current="page" href="Productos.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active palabrasbarra" href="Contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active palabrasbarra" href="Horarios.html">Horarios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active palabrasbarra" href="https://docs.google.com/spreadsheets/d/1gPMUtL4LnNMJP_EV6Z_Aslp5GZLyhSjhxnT2jBoTwPA/edit#gid=0">Precios</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 </header>
 <br>
     <center><h2 class="t1">¿A qué nos dedicamos? </h2></center> <br>
